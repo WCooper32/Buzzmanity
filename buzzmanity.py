@@ -96,7 +96,10 @@ while True:
         # read the bytes and convert from binary array to ASCII
         data_str = ser.read(ser.inWaiting()).decode('ascii')
 
-        print('Scanned card ' + data_str, end='\n')
+        print('Scanned card ' + data_str)
+        # Previous line above: print('Scanned card ' + data_str, end='\n')
+        # end='\n' is optional and print() prints a new line character after
+            # the input string by default
 
         # Runs on each card scan
         try:
