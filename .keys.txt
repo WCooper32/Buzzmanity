@@ -1,0 +1,5 @@
+user_id,shop@inventionstudio.gatech.edu
+passwd,shoppyboi
+client_id,2867ba1668ece57b80d9a7de2a9779a526f0558f
+client_secret,3490c99f96a3de68d86c94b6943cdfce7ca8de1e
+SERIAL_PORT,/dev/ttyACM0
